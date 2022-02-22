@@ -7,16 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		961B3D3027C4991A004426CA /* AdvertisementBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961B3D2F27C4991A004426CA /* AdvertisementBanner.swift */; };
+		961B3D3227C49A1B004426CA /* BannerCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961B3D3127C49A1B004426CA /* BannerCard.swift */; };
+		961B3D3427C49C63004426CA /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961B3D3327C49C63004426CA /* BannerView.swift */; };
+		961B3D3727C4A660004426CA /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961B3D3627C4A660004426CA /* PageViewController.swift */; };
+		961B3D3927C4AB4B004426CA /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961B3D3827C4AB4B004426CA /* PageControl.swift */; };
 		961E4B3427C0986E009367B7 /* TamnaPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961E4B3327C0986E009367B7 /* TamnaPracticeApp.swift */; };
 		961E4B3627C0986E009367B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961E4B3527C0986E009367B7 /* ContentView.swift */; };
 		961E4B3827C0986F009367B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 961E4B3727C0986F009367B7 /* Assets.xcassets */; };
 		961E4B3B27C0986F009367B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 961E4B3A27C0986F009367B7 /* Preview Assets.xcassets */; };
 		96443D4C27C3801B00BE651E /* CashHorizon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96443D4B27C3801B00BE651E /* CashHorizon.swift */; };
 		96443D4E27C3890400BE651E /* QRBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96443D4D27C3890400BE651E /* QRBar.swift */; };
+		96443D5427C3954E00BE651E /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96443D5327C3954E00BE651E /* Storage.swift */; };
+		96443D5627C3965500BE651E /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96443D5527C3965500BE651E /* ListCell.swift */; };
+		96443D5827C39B4100BE651E /* StorageList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96443D5727C39B4100BE651E /* StorageList.swift */; };
+		964541B227C3D93F00D7D1D4 /* FindCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964541B127C3D93F00D7D1D4 /* FindCell.swift */; };
+		964541B427C3DB7A00D7D1D4 /* NewsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964541B327C3DB7A00D7D1D4 /* NewsList.swift */; };
 		964E84E427C09CFC00AC9772 /* NavigationBarWithButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964E84E327C09CFC00AC9772 /* NavigationBarWithButton.swift */; };
+		96BD939727C3A9380001E908 /* ImageHorizon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BD939627C3A9380001E908 /* ImageHorizon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		961B3D2F27C4991A004426CA /* AdvertisementBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertisementBanner.swift; sourceTree = "<group>"; };
+		961B3D3127C49A1B004426CA /* BannerCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCard.swift; sourceTree = "<group>"; };
+		961B3D3327C49C63004426CA /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
+		961B3D3627C4A660004426CA /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		961B3D3827C4AB4B004426CA /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 		961E4B3027C0986E009367B7 /* TamnaPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TamnaPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		961E4B3327C0986E009367B7 /* TamnaPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamnaPracticeApp.swift; sourceTree = "<group>"; };
 		961E4B3527C0986E009367B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -24,7 +40,13 @@
 		961E4B3A27C0986F009367B7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		96443D4B27C3801B00BE651E /* CashHorizon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashHorizon.swift; sourceTree = "<group>"; };
 		96443D4D27C3890400BE651E /* QRBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRBar.swift; sourceTree = "<group>"; };
+		96443D5327C3954E00BE651E /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		96443D5527C3965500BE651E /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		96443D5727C39B4100BE651E /* StorageList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageList.swift; sourceTree = "<group>"; };
+		964541B127C3D93F00D7D1D4 /* FindCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindCell.swift; sourceTree = "<group>"; };
+		964541B327C3DB7A00D7D1D4 /* NewsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsList.swift; sourceTree = "<group>"; };
 		964E84E327C09CFC00AC9772 /* NavigationBarWithButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarWithButton.swift; sourceTree = "<group>"; };
+		96BD939627C3A9380001E908 /* ImageHorizon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageHorizon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +60,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		961B3D3527C4A64B004426CA /* Banner */ = {
+			isa = PBXGroup;
+			children = (
+				961B3D3127C49A1B004426CA /* BannerCard.swift */,
+				961B3D3327C49C63004426CA /* BannerView.swift */,
+				961B3D3A27C4ADA0004426CA /* UIKit to SwiftUI */,
+			);
+			path = Banner;
+			sourceTree = "<group>";
+		};
+		961B3D3A27C4ADA0004426CA /* UIKit to SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				961B3D3627C4A660004426CA /* PageViewController.swift */,
+				961B3D3827C4AB4B004426CA /* PageControl.swift */,
+			);
+			path = "UIKit to SwiftUI";
+			sourceTree = "<group>";
+		};
 		961E4B2727C0986E009367B7 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +101,8 @@
 				961E4B3327C0986E009367B7 /* TamnaPracticeApp.swift */,
 				961E4B3527C0986E009367B7 /* ContentView.swift */,
 				96443D5227C391E800BE651E /* Views */,
+				96443D5927C39B5200BE651E /* StorageList */,
+				96443D5A27C39D8B00BE651E /* Model */,
 				961E4B3727C0986F009367B7 /* Assets.xcassets */,
 				961E4B3927C0986F009367B7 /* Preview Content */,
 			);
@@ -80,8 +123,30 @@
 				964E84E327C09CFC00AC9772 /* NavigationBarWithButton.swift */,
 				96443D4B27C3801B00BE651E /* CashHorizon.swift */,
 				96443D4D27C3890400BE651E /* QRBar.swift */,
+				96BD939627C3A9380001E908 /* ImageHorizon.swift */,
+				964541B127C3D93F00D7D1D4 /* FindCell.swift */,
+				964541B327C3DB7A00D7D1D4 /* NewsList.swift */,
+				961B3D3527C4A64B004426CA /* Banner */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		96443D5927C39B5200BE651E /* StorageList */ = {
+			isa = PBXGroup;
+			children = (
+				96443D5727C39B4100BE651E /* StorageList.swift */,
+				96443D5527C3965500BE651E /* ListCell.swift */,
+			);
+			path = StorageList;
+			sourceTree = "<group>";
+		};
+		96443D5A27C39D8B00BE651E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				96443D5327C3954E00BE651E /* Storage.swift */,
+				961B3D2F27C4991A004426CA /* AdvertisementBanner.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,11 +219,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				961B3D3427C49C63004426CA /* BannerView.swift in Sources */,
 				96443D4E27C3890400BE651E /* QRBar.swift in Sources */,
 				96443D4C27C3801B00BE651E /* CashHorizon.swift in Sources */,
+				96443D5627C3965500BE651E /* ListCell.swift in Sources */,
 				964E84E427C09CFC00AC9772 /* NavigationBarWithButton.swift in Sources */,
+				964541B427C3DB7A00D7D1D4 /* NewsList.swift in Sources */,
+				961B3D3727C4A660004426CA /* PageViewController.swift in Sources */,
+				961B3D3227C49A1B004426CA /* BannerCard.swift in Sources */,
+				961B3D3027C4991A004426CA /* AdvertisementBanner.swift in Sources */,
 				961E4B3627C0986E009367B7 /* ContentView.swift in Sources */,
+				961B3D3927C4AB4B004426CA /* PageControl.swift in Sources */,
+				96443D5827C39B4100BE651E /* StorageList.swift in Sources */,
+				964541B227C3D93F00D7D1D4 /* FindCell.swift in Sources */,
 				961E4B3427C0986E009367B7 /* TamnaPracticeApp.swift in Sources */,
+				96443D5427C3954E00BE651E /* Storage.swift in Sources */,
+				96BD939727C3A9380001E908 /* ImageHorizon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +373,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -326,6 +403,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -31,7 +31,7 @@ struct QRBar: View {
             Spacer().frame(width: 15)
         }
         .foregroundColor(.white)
-        .padding()
+        .padding().frame(height: 45)
         .background(Color(hue: 0.072, saturation: 0.898, brightness: 0.876, opacity: 0.805))
     }
 }

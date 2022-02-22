@@ -8,16 +8,38 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
         NavigationView {
             ScrollView {
                 VStack {
-                    Spacer()
-                    CashHorizon()
-                    QRBar()
+                    VStack {
+                        Spacer()
+                        CashHorizon()
+                        QRBar()
+                    }
+                    .background(Color.orange)
+                    .navigationBarWithButtonStyle("탐나는전")
+                    
+                    Spacer().frame(height: 0) //사이좁혀지도록.
+                    
+                    StorageList()
+                        .padding()
+                    
+                    ImageHorizon()
+                    
+                    BannerView()
+                        .aspectRatio(5/2, contentMode: .fit)
+                        .padding(.leading)
+                        .padding(.trailing)
+                        .padding(.top)
+                    
+                    FindCell()
+                        .padding()
+                    
+                    NewsList()
+                        .padding()
                 }
-                .background(Color.orange)
-                .navigationBarWithButtonStyle("탐나는전")
             }
         }
     }
@@ -26,5 +48,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .environmentObject(ModelData())
     }
 }

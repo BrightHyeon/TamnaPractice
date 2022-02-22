@@ -13,7 +13,7 @@ struct NavigationBarWithButton: ViewModifier {
         return content
             .navigationBarItems(
                 leading: Text("탐나는전")
-                    .font(.system(size: 24, weight: .bold))
+                    .font(.system(size: 20, weight: .bold))
                     .foregroundColor(.white),
                 trailing: Button(
                     action: {
@@ -28,6 +28,7 @@ struct NavigationBarWithButton: ViewModifier {
                 let apperance = UINavigationBarAppearance()
                 apperance.backgroundColor = UIColor(.orange)
                 apperance.shadowColor = .clear
+                UINavigationBar.appearance().standardAppearance = apperance //이렇게 해야 스크롤 내려도 바가 안사라짐.
                 UINavigationBar.appearance().scrollEdgeAppearance = apperance
             }
     }
