@@ -12,6 +12,10 @@
 		961B3D3427C49C63004426CA /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961B3D3327C49C63004426CA /* BannerView.swift */; };
 		961B3D3727C4A660004426CA /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961B3D3627C4A660004426CA /* PageViewController.swift */; };
 		961B3D3927C4AB4B004426CA /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961B3D3827C4AB4B004426CA /* PageControl.swift */; };
+		961B3D3C27C4B468004426CA /* RegisterBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961B3D3B27C4B467004426CA /* RegisterBar.swift */; };
+		961B3D3E27C4B713004426CA /* TravelWithTamnaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961B3D3D27C4B713004426CA /* TravelWithTamnaView.swift */; };
+		961B3D4227C4C3C9004426CA /* BarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961B3D4127C4C3C9004426CA /* BarsView.swift */; };
+		961B3D4627C4CF61004426CA /* CheckInfoBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961B3D4527C4CF61004426CA /* CheckInfoBar.swift */; };
 		961E4B3427C0986E009367B7 /* TamnaPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961E4B3327C0986E009367B7 /* TamnaPracticeApp.swift */; };
 		961E4B3627C0986E009367B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961E4B3527C0986E009367B7 /* ContentView.swift */; };
 		961E4B3827C0986F009367B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 961E4B3727C0986F009367B7 /* Assets.xcassets */; };
@@ -33,6 +37,10 @@
 		961B3D3327C49C63004426CA /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
 		961B3D3627C4A660004426CA /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		961B3D3827C4AB4B004426CA /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
+		961B3D3B27C4B467004426CA /* RegisterBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterBar.swift; sourceTree = "<group>"; };
+		961B3D3D27C4B713004426CA /* TravelWithTamnaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelWithTamnaView.swift; sourceTree = "<group>"; };
+		961B3D4127C4C3C9004426CA /* BarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarsView.swift; sourceTree = "<group>"; };
+		961B3D4527C4CF61004426CA /* CheckInfoBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInfoBar.swift; sourceTree = "<group>"; };
 		961E4B3027C0986E009367B7 /* TamnaPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TamnaPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		961E4B3327C0986E009367B7 /* TamnaPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamnaPracticeApp.swift; sourceTree = "<group>"; };
 		961E4B3527C0986E009367B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -126,6 +134,10 @@
 				96BD939627C3A9380001E908 /* ImageHorizon.swift */,
 				964541B127C3D93F00D7D1D4 /* FindCell.swift */,
 				964541B327C3DB7A00D7D1D4 /* NewsList.swift */,
+				961B3D3B27C4B467004426CA /* RegisterBar.swift */,
+				961B3D3D27C4B713004426CA /* TravelWithTamnaView.swift */,
+				961B3D4527C4CF61004426CA /* CheckInfoBar.swift */,
+				961B3D4127C4C3C9004426CA /* BarsView.swift */,
 				961B3D3527C4A64B004426CA /* Banner */,
 			);
 			path = Views;
@@ -221,7 +233,9 @@
 			files = (
 				961B3D3427C49C63004426CA /* BannerView.swift in Sources */,
 				96443D4E27C3890400BE651E /* QRBar.swift in Sources */,
+				961B3D3E27C4B713004426CA /* TravelWithTamnaView.swift in Sources */,
 				96443D4C27C3801B00BE651E /* CashHorizon.swift in Sources */,
+				961B3D4627C4CF61004426CA /* CheckInfoBar.swift in Sources */,
 				96443D5627C3965500BE651E /* ListCell.swift in Sources */,
 				964E84E427C09CFC00AC9772 /* NavigationBarWithButton.swift in Sources */,
 				964541B427C3DB7A00D7D1D4 /* NewsList.swift in Sources */,
@@ -230,6 +244,8 @@
 				961B3D3027C4991A004426CA /* AdvertisementBanner.swift in Sources */,
 				961E4B3627C0986E009367B7 /* ContentView.swift in Sources */,
 				961B3D3927C4AB4B004426CA /* PageControl.swift in Sources */,
+				961B3D4227C4C3C9004426CA /* BarsView.swift in Sources */,
+				961B3D3C27C4B468004426CA /* RegisterBar.swift in Sources */,
 				96443D5827C39B4100BE651E /* StorageList.swift in Sources */,
 				964541B227C3D93F00D7D1D4 /* FindCell.swift in Sources */,
 				961E4B3427C0986E009367B7 /* TamnaPracticeApp.swift in Sources */,

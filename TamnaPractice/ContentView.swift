@@ -28,17 +28,37 @@ struct ContentView: View {
                     
                     ImageHorizon()
                     
-                    BannerView()
-                        .aspectRatio(5/2, contentMode: .fit)
-                        .padding(.leading)
-                        .padding(.trailing)
-                        .padding(.top)
+                    //한 Stack에 인수 10개초과하면 안되기에 묶어줌.
+                    VStack {
+                        BannerView()
+                            .aspectRatio(5/2, contentMode: .fit)
+                            .padding(.leading)
+                            .padding(.trailing)
+                            .padding(.top)
+                        
+                        FindCell()
+                            .padding()
                     
-                    FindCell()
-                        .padding()
                     
-                    NewsList()
-                        .padding()
+                        NewsList()
+                            .padding()
+                        
+                        Button {
+                            print("Tamna")
+                        } label: {
+                            Image("TamnaCapture")
+                                .aspectRatio(5/2, contentMode: .fit)
+                                .padding()
+                        }
+                        
+                        RegisterBar()
+                        
+                        TravelWithTamnaView()
+                        
+                        CheckInfoBar()
+                        
+                        BarsView()
+                    }
                 }
             }
         }
