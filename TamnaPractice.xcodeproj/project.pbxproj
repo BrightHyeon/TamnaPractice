@@ -16,6 +16,8 @@
 		961B3D3E27C4B713004426CA /* TravelWithTamnaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961B3D3D27C4B713004426CA /* TravelWithTamnaView.swift */; };
 		961B3D4227C4C3C9004426CA /* BarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961B3D4127C4C3C9004426CA /* BarsView.swift */; };
 		961B3D4627C4CF61004426CA /* CheckInfoBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961B3D4527C4CF61004426CA /* CheckInfoBar.swift */; };
+		961B3D4827C4D324004426CA /* FinalTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961B3D4727C4D324004426CA /* FinalTextView.swift */; };
+		961B3D4A27C4D421004426CA /* ConcludingRemarks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961B3D4927C4D421004426CA /* ConcludingRemarks.swift */; };
 		961E4B3427C0986E009367B7 /* TamnaPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961E4B3327C0986E009367B7 /* TamnaPracticeApp.swift */; };
 		961E4B3627C0986E009367B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961E4B3527C0986E009367B7 /* ContentView.swift */; };
 		961E4B3827C0986F009367B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 961E4B3727C0986F009367B7 /* Assets.xcassets */; };
@@ -41,6 +43,8 @@
 		961B3D3D27C4B713004426CA /* TravelWithTamnaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelWithTamnaView.swift; sourceTree = "<group>"; };
 		961B3D4127C4C3C9004426CA /* BarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarsView.swift; sourceTree = "<group>"; };
 		961B3D4527C4CF61004426CA /* CheckInfoBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInfoBar.swift; sourceTree = "<group>"; };
+		961B3D4727C4D324004426CA /* FinalTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalTextView.swift; sourceTree = "<group>"; };
+		961B3D4927C4D421004426CA /* ConcludingRemarks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcludingRemarks.swift; sourceTree = "<group>"; };
 		961E4B3027C0986E009367B7 /* TamnaPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TamnaPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		961E4B3327C0986E009367B7 /* TamnaPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamnaPracticeApp.swift; sourceTree = "<group>"; };
 		961E4B3527C0986E009367B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -138,6 +142,8 @@
 				961B3D3D27C4B713004426CA /* TravelWithTamnaView.swift */,
 				961B3D4527C4CF61004426CA /* CheckInfoBar.swift */,
 				961B3D4127C4C3C9004426CA /* BarsView.swift */,
+				961B3D4727C4D324004426CA /* FinalTextView.swift */,
+				961B3D4927C4D421004426CA /* ConcludingRemarks.swift */,
 				961B3D3527C4A64B004426CA /* Banner */,
 			);
 			path = Views;
@@ -245,6 +251,8 @@
 				961E4B3627C0986E009367B7 /* ContentView.swift in Sources */,
 				961B3D3927C4AB4B004426CA /* PageControl.swift in Sources */,
 				961B3D4227C4C3C9004426CA /* BarsView.swift in Sources */,
+				961B3D4827C4D324004426CA /* FinalTextView.swift in Sources */,
+				961B3D4A27C4D421004426CA /* ConcludingRemarks.swift in Sources */,
 				961B3D3C27C4B468004426CA /* RegisterBar.swift in Sources */,
 				96443D5827C39B4100BE651E /* StorageList.swift in Sources */,
 				964541B227C3D93F00D7D1D4 /* FindCell.swift in Sources */,
