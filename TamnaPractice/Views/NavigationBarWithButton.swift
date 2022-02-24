@@ -9,10 +9,12 @@ import SwiftUI
 
 struct NavigationBarWithButton: ViewModifier {
     
+    var title: String
+    
     func body(content: Content) -> some View {
         return content
             .navigationBarItems(
-                leading: Text("탐나는전")
+                leading: Text(title)
                     .font(.system(size: 20, weight: .bold))
                     .foregroundColor(.white),
                 trailing: Button(
@@ -36,7 +38,7 @@ struct NavigationBarWithButton: ViewModifier {
 
 extension View {
     func navigationBarWithButtonStyle(_ title: String) -> some View {
-        return self.modifier(NavigationBarWithButton())
+        return self.modifier(NavigationBarWithButton(title: title))
     }
 }
 
